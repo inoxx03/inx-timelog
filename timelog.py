@@ -8,7 +8,7 @@ def create_entry():
     tag = raw_input("New Entry: ")
     date = str(datetime.now().date())
     time = str(datetime.now().time().replace(microsecond=0))
-    f = open('timelogfile', 'a')
+    f = open('log/timelogfile', 'a')
     f.write(date + " " + time + " " + tag + "\n")
     f.close()
 
