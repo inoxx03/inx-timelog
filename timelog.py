@@ -1,6 +1,6 @@
 #!/usr/bin/python
 from datetime import datetime
-import os
+# import os
 import sys
 
     # write date then time then user provided tag separately inline to a file
@@ -13,7 +13,8 @@ def create_entry():
     f.close()
 
 print("TimeLog v. 0.1\nby inoxx\nUse the following entry names (for ease of use only):\n - work\n - break\n - arrival\n - departure\n")
-create_entry()
+
+#create_entry()
 
 while True:
     new_entry = raw_input("Create new entry? [y/n]")
@@ -31,3 +32,10 @@ sys.exit()
 #from time import strftime
 #time = strftime("%Y-%m-%d %H:%M:%S")
 #print(time)
+"""
+with open("filename.txt") as f:
+    for line in f:
+        if "Smith" in line:
+             print line
+"""
+
