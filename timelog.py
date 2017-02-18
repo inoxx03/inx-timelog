@@ -47,7 +47,7 @@ while True:
       print ("Invalid option!")
 
 while True:
-  if m0 == 'c':
+  if m0 == 'c':    
     new_entry = raw_input("Create new entry? [y/n]")
     if new_entry == 'y':
             create_entry()
